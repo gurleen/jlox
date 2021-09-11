@@ -14,6 +14,9 @@ public class Token {
     }
 
     public String toString() {
-        return type + " " + lexeme + " " + literal;
+        if(literal != null) {
+            return type + " " + lexeme + " " + literal;
+        }
+        return type + " " + lexeme;
     }
 }
