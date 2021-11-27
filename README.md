@@ -1,4 +1,4 @@
-#jlox
+# jlox
 ## Gurleen Singh <gs585@drexel.edu>
 
 jlox is an implementation of the Lox language written in Java,
